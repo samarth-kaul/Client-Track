@@ -65,9 +65,9 @@ WSGI_APPLICATION = 'clienttrack.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'clienttrackdjango',
+        'NAME': 'clienttrack',
         'USER': 'root',
-        'PASSWORD': 'samarth108',
+        'PASSWORD': 'samarthsql',
         'HOST': 'localhost',
         'PORT': '3306',
     }
